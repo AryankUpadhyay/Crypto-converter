@@ -104,6 +104,8 @@ console.log('The output is', ExchangeRateValue)
 
       <ExchangeRate
       exchangerate={ExchangeRateValue}
+      chosenPrimaryCurrency={chosenPrimaryCurrency}
+      chosenSecondaryCurrency={chosenSecondaryCurrency}
       />
     </div>
   )
