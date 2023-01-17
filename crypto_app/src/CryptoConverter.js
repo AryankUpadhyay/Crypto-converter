@@ -21,7 +21,7 @@ const Convert=()=>{
     url: 'https://alpha-vantage.p.rapidapi.com/query',
     params: {from_currency: chosenPrimaryCurrency, function: 'CURRENCY_EXCHANGE_RATE', to_currency: chosenSecondaryCurrency},
     headers: {
-      'X-RapidAPI-Key': '07169b686emshe98497117e9674ap1cab06jsn7fd6150a7bf0',
+      'X-RapidAPI-Key': process.env.Process_ID_CryptoWork,
       'X-RapidAPI-Host': 'alpha-vantage.p.rapidapi.com'
     }
   };
@@ -41,7 +41,7 @@ console.log('The output is', ExchangeRateValue)
   return (
     <div className='crypto-converter'>
       <h2> CryptoConverter</h2>
-      <div>
+      <div className='input-box'>
       <table>
         <tbody>
           <tr>

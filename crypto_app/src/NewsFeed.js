@@ -12,7 +12,7 @@ const NewsFeed=()=> {
       url: 'https://real-time-news-data.p.rapidapi.com/top-headlines',
       params: {country: 'US', lang: 'en'},
       headers: {
-        'X-RapidAPI-Key': '07169b686emshe98497117e9674ap1cab06jsn7fd6150a7bf0',
+        'X-RapidAPI-Key': process.env.Process_ID_NewsFeed,
         'X-RapidAPI-Host': 'real-time-news-data.p.rapidapi.com'
       }
     };

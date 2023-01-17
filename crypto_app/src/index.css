@@ -13,14 +13,48 @@ code {
 }
 .App{
   display: flex;
+  flex-direction: column;
   align-items: center;
 }
+.App-inside{
+  display: flex;
+}
 .news-feed{
-  background-color: aqua;
+  background-color:rgb(230, 223 ,211);
+  padding: 10px;
+  margin: 5px;
+  max-width: 300px;
+  box-shadow: 0 3px 10px rgb((0),0,0 / 0.2) ;
 }
 .crypto-converter{
-  background-color: blue;
+  background-color: rgb(147, 147, 199);
+  border: 5px;
+  padding: 5px;
+  text-align: center;
+  box-shadow: 0 3px 10px rgb((0),0,0 / 0.2) ;
 }
 .exchange-rate{
-  background-color: brown;
+  padding: 1px;
+  margin-top: 10px;
+  border-radius: 15px;
+  background-color: rgb(197, 121, 121);
+  box-shadow: 0 3px 10px rgb((0),0,0 / 0.2) ;
+}
+
+.input-box{
+  background-color: aliceblue;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 3px 10px rgb((0),0,0 / 0.2) ;
+  
+}
+
+.convert-button{
+  border: none;
+  float: right;
+  margin: 2px;
+  padding: 2px;
+}
+.convert-button:hover{
+  background-color: rgb(182, 228, 208);
 }
