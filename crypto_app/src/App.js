@@ -5,7 +5,7 @@ import NewsFeed  from './NewsFeed';
 function App() {
   return (
     <div className="App">
-      The App is Perfecty Fine
+      {/* The App is Perfecty Fine */}
       <CryptoConverter/>
       <NewsFeed/>
     </div>
